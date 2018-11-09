@@ -32,9 +32,9 @@ nav {
 	padding: 9px;  
 }
 
-h4 {
-	margin-left: 5px;
-	margin-bottom: 15px;
+h1 {
+	padding-left: 5px;
+	padding-bottom: 15px;
 	font-family: Verdana, sans-serif;
 }
 
@@ -50,8 +50,17 @@ li {
 	list-style-type: square;
 }
 
+a:link {
+	color: whitesmoke;
+}
+
+a:visited {
+	color: black;
+}
+
 a:hover {
 	font-weight: bold;
+	color: red;
 }
 
 .menu {
