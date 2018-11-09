@@ -79,6 +79,9 @@ header > div:nth-child(-1) {
 nav {
     margin-left: auto;
     padding-top: 20px;
+    padding-right: 20px;
+    letter-spacing: 0.2px;
+    word-spacing: 7px;
 }
 
 /*
