@@ -2,23 +2,27 @@ div {
 	border-radius: 5px;
 }
 
-#header {
+header {
 	z-index: 1;
 	position: fixed;
 	width: 97.5%;
-	margin-top: -20px;
+	/*margin-top: -20px;*/
 	height: 60px;
 	background-color: #668284;
 	margin-bottom: 10px;
+	align-items: center;
 }
 
 #name {
 	float:left;
-	margin-left: 5px;
-	padding-top: 5px;
+	
+	margin-left: 10px;
+	padding-top: 15px;
+	
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
 	color: #ffffff;
+	
 }
 
 nav {
@@ -38,7 +42,7 @@ h4 {
 	font-family: Verdana, sans-serif;
 }
 
-.right p {
+content p {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: -10px;
@@ -54,18 +58,18 @@ a:hover {
 	font-weight: bold;
 }
 
-.left {
-	position: relative;
+.menu {
 	float: left;
 	margin-top: 50px;
 	width: 10%;
-	height: auto;
+	height: 100%;
 	background-color: #B9D7D9;
 	margin-bottom: 10px;
+
 }
 
-.right {
-	position: relative;
+.content {
+	
 	float: right;
 	margin-top: 50px;
 	width: 88%;
