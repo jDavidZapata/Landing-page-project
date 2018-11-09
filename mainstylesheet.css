@@ -36,6 +36,12 @@ h1 {
 	padding-left: 5px;
 	padding-bottom: 15px;
 	font-family: Verdana, sans-serif;
+	text-align: center;
+	color: blue;
+}
+
+h2 {
+	color: #668284;
 }
 
 content p {
@@ -97,6 +103,7 @@ a:hover {
 #footer p {
 	position: relative;
 	padding-top: 15px;
+	text-align: center;
 }
 .btn {
 	padding: 10px;
