@@ -9,7 +9,7 @@ header {
 	margin-top: 0px;
 	height: 60px;
 	background-color: #668284;
-	display: block;	
+	display: block;
 }
 
 #name {
@@ -100,4 +100,7 @@ a:hover {
 }
 .btn {
 	padding: 10px;
+	border: 1px solid black;
+	outline-style: outset;
+	outline-color: snow;
 }
