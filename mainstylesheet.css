@@ -52,6 +52,7 @@ li {
 
 a:link {
 	color: whitesmoke;
+	text-decoration: none;
 }
 
 a:visited {
