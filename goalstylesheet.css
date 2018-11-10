@@ -69,6 +69,9 @@ body {
 header {
     grid-column: 1 / -1;
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 /*
 header > div:nth-child(-1) {
