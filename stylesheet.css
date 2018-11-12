@@ -37,7 +37,8 @@ nav {
 }
 
 h1 {
-  text-shadow: 3px 2px white;
+  color: mediumblue;
+  text-shadow: 3px 2px rgba(250, 21, 21, 0.918)
 }
 
 h3 {
