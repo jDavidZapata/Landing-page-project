@@ -22,7 +22,8 @@ header {
   font-size: 25px;
   font-family: Verdana, sans-serif;
   color: #fa0707;
-  text-shadow: 3px 2px violet;
+  text-shadow: 3px 2px rgba(0, 4, 255, 0.89);
+  font-weight: bold;
 }
 
 
@@ -35,10 +36,16 @@ nav {
   letter-spacing: 0.7px;
 }
 
+h1 {
+  text-shadow: 3px 2px white;
+}
+
 h3 {
   margin-left: 5px;
   margin-bottom: 15px;
   font-family: Verdana, sans-serif;
+  color: fuchsia;
+  text-shadow: 3px 2px rgb(20, 198, 211);
 }
 
 li {
@@ -56,7 +63,7 @@ a:visited {
 
 a:hover {
   font-weight: bold;
-  color: green;
+  color: rgb(69, 231, 5);
 }
 
 #clearfix {
@@ -92,7 +99,6 @@ a:hover {
   margin-right: 5px;
   margin-top: -10px;
   font-family: Garamond, serif;
-  color: #000000;
 }
 
 footer {
