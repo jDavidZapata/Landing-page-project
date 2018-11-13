@@ -78,7 +78,7 @@
             color: darkgreen;
             font-family: fantasy;
             float: left;
-            margin: 1px;
+            margin: 2px;
         }
 
         h1 {
@@ -105,7 +105,12 @@
             font-weight: bold;
         }
 
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 400px) {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
             .btn {
                 float: none;
                 width: 100%;
@@ -119,6 +124,10 @@
                 
                 height: 280px;
 
+            }
+
+            #top, #middle, #bottom, p {
+                padding: 15px;
             }
 
             footer {
