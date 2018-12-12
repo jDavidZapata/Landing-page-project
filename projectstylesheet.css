@@ -118,10 +118,12 @@ a:hover {
 
 .content {
     grid-column: 3 / -1;
+    align: center;
 }
 
 #footer {
     grid-column: 1 / -1;
+    text-
 }
 
 #footer p {
