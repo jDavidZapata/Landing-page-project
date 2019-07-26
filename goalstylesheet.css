@@ -122,11 +122,15 @@ a:hover {
 
 #footer {
     grid-column: 1 / -1;
+    text-align: center;
 }
 
-#footer p {
+#footer a {
     align-self: center;
     text-align: center;
     color: black;
 
 }
+
+footer {
+    text-align: center;
